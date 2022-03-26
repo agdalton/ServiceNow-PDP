@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_288636_platfor_0_development_activity</from_table>
+        <m2m_from_field>development_activity</m2m_from_field>
+        <m2m_from_label>Stories</m2m_from_label>
+        <m2m_table>x_288636_platfor_0_m2m_stories_development</m2m_table>
+        <m2m_to_field>story</m2m_to_field>
+        <m2m_to_label>Development activities</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-26 18:48:17</sys_created_on>
+        <sys_id>6dab60e407e64110bd17f7108c1ed0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_288636_platfor_0_m2m_stories_development</sys_name>
+        <sys_package display_value="Platform Development Pipeline" source="x_288636_platfor_0">b3fa1ce407664110bd17f7108c1ed09d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Platform Development Pipeline">b3fa1ce407664110bd17f7108c1ed09d</sys_scope>
+        <sys_update_name>sys_m2m_6dab60e407e64110bd17f7108c1ed0ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-26 18:48:17</sys_updated_on>
+        <to_table>rm_story</to_table>
+    </sys_m2m>
+</record_update>

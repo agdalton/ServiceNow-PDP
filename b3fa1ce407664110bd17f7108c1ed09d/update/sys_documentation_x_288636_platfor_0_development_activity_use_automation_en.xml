@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="use_automation" label="Use automation" language="en" table="x_288636_platfor_0_development_activity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>use_automation</element>
+            <help/>
+            <hint/>
+            <label>Use automation</label>
+            <language>en</language>
+            <name>x_288636_platfor_0_development_activity</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-26 18:42:31</sys_created_on>
+            <sys_id>5d7a6c6407e64110bd17f7108c1ed0c8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Use automation</sys_name>
+            <sys_package display_value="Platform Development Pipeline" source="x_288636_platfor_0">b3fa1ce407664110bd17f7108c1ed09d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Platform Development Pipeline">b3fa1ce407664110bd17f7108c1ed09d</sys_scope>
+            <sys_update_name>sys_documentation_x_288636_platfor_0_development_activity_use_automation_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-26 18:42:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

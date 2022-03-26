@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Deployment steps" max_length="40" name="x_288636_platfor_0_deployment_plan" type="collection">
+        <element choice="3" label="Action" max_length="40" name="action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Commit" sequence="0" value="commit"/>
+                <element inactive_on_update="false" label="Pull" sequence="1" value="pull"/>
+                <element inactive_on_update="false" label="Execute" sequence="2" value="execute"/>
+            </choice>
+        </element>
+        <element label="Development activity" max_length="32" name="development_activity" reference="x_288636_platfor_0_development_activity" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="3" label="Resource" max_length="40" name="resource" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Update set" sequence="0" value="update_set"/>
+                <element inactive_on_update="false" label="Source control" sequence="1" value="source_control"/>
+                <element inactive_on_update="false" label="Automated test" sequence="2" value="automated_test"/>
+            </choice>
+        </element>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="Error" sequence="3" value="error"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="development_activity"/>
+        </index>
+    </element>
+</database>

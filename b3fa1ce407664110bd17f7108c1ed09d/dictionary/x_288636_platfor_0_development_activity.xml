@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Development activity" max_length="40" name="x_288636_platfor_0_development_activity" type="collection">
+        <element label="Development instance" mandatory="true" max_length="32" name="development_instance" reference="instance" type="reference"/>
+        <element label="Application scope" mandatory="true" max_length="32" name="scope" reference="sys_app" type="reference"/>
+        <element label="Source control" max_length="255" name="source_control" type="boolean"/>
+        <element choice="3" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="ready"/>
+                <element inactive_on_update="false" label="In development" sequence="2" value="in_development"/>
+                <element inactive_on_update="false" label="Ready for UAT" sequence="3" value="ready_for_uat"/>
+                <element inactive_on_update="false" label="Pending deployment" sequence="4" value="pending_deployment"/>
+                <element inactive_on_update="false" label="Deploying" sequence="5" value="deploying"/>
+                <element inactive_on_update="false" label="Automated testing in progress" sequence="6" value="auto_testing"/>
+                <element inactive_on_update="false" label="Deployed" sequence="7" value="deployed"/>
+                <element inactive_on_update="false" label="Pending manual deployment" sequence="8" value="pending_manual"/>
+                <element inactive_on_update="false" label="Manually deployed" sequence="9" value="manually_deployed"/>
+                <element inactive_on_update="false" label="Error" sequence="10" value="error"/>
+                <element inactive_on_update="false" label="Canceled" sequence="11" value="canceled"/>
+            </choice>
+        </element>
+        <element label="Use automation" max_length="255" name="use_automation" type="boolean"/>
+    </element>
+</database>

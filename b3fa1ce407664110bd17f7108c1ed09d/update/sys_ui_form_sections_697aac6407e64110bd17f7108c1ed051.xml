@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="697aac6407e64110bd17f7108c1ed051" sys_domain="global" table="x_288636_platfor_0_development_activity" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-26 18:42:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>397aac6407e64110bd17f7108c1ed054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_288636_platfor_0_development_activity" name="x_288636_platfor_0_development_activity" sys_domain="global" view="Default view">697aac6407e64110bd17f7108c1ed051</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_288636_platfor_0_development_activity" sys_domain="global" view="Default view">73a5642c07a64110bd17f7108c1ed064</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-26 18:42:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-26 18:44:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ada24a407e64110bd17f7108c1ed07f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_288636_platfor_0_development_activity" name="x_288636_platfor_0_development_activity" sys_domain="global" view="Default view">697aac6407e64110bd17f7108c1ed051</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_288636_platfor_0_development_activity" sys_domain="global" view="Default view">36da24a407e64110bd17f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-26 18:44:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-26 18:42:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b57aac6407e64110bd17f7108c1ed055</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_288636_platfor_0_development_activity" name="x_288636_platfor_0_development_activity" sys_domain="global" view="Default view">697aac6407e64110bd17f7108c1ed051</sys_ui_form>
+            <sys_ui_section caption="Deployment settings" display_value="Deployment settings" name="x_288636_platfor_0_development_activity" sys_domain="global" view="Default view">6d7aac6407e64110bd17f7108c1ed050</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-26 18:44:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_288636_platfor_0_development_activity</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-26 18:42:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>697aac6407e64110bd17f7108c1ed051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_288636_platfor_0_development_activity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Platform Development Pipeline" source="x_288636_platfor_0">b3fa1ce407664110bd17f7108c1ed09d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Platform Development Pipeline">b3fa1ce407664110bd17f7108c1ed09d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_697aac6407e64110bd17f7108c1ed051</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-26 18:42:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

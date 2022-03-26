@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="x_288636_platfor_0_m2m_stories_development_" max_length="40" name="x_288636_platfor_0_m2m_stories_development" type="collection">
+        <element attributes="encode_utf8=false" label="Development activity" max_length="32" name="development_activity" reference="x_288636_platfor_0_development_activity" type="reference"/>
+        <element attributes="encode_utf8=false" label="Story" max_length="32" name="story" reference="rm_story" type="reference"/>
+        <index name="index">
+            <element name="development_activity"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

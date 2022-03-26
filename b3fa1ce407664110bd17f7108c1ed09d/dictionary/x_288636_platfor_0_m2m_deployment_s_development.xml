@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="x_288636_platfor_0_m2m_deployment_s_development_" max_length="40" name="x_288636_platfor_0_m2m_deployment_s_development" type="collection">
+        <element attributes="encode_utf8=false" label="Deployment steps" max_length="32" name="deployment_steps" reference="x_288636_platfor_0_deployment_plan" type="reference"/>
+        <element attributes="encode_utf8=false" label="Development activity" max_length="32" name="development_activity" reference="x_288636_platfor_0_development_activity" type="reference"/>
+        <index name="index">
+            <element name="development_activity"/>
+        </index>
+        <index name="index2">
+            <element name="deployment_steps"/>
+        </index>
+    </element>
+</database>
